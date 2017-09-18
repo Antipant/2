@@ -1,0 +1,13 @@
+ru\antipov\autotest\pages\Registration1Page.class
+ru\antipov\autotest\pages\BasePage.class
+ru\antipov\autotest\steps\Registration1Steps.class
+ru\antipov\autotest\steps\SearchSteps.class
+ru\antipov\autotest\pages\SearchPage.class
+ru\antipov\autotest\pages\MainPage.class
+ru\antipov\autotest\steps\RegistrationSteps.class
+ru\antipov\autotest\steps\BaseSteps.class
+ru\antipov\autotest\steps\MainSteps.class
+ru\antipov\autotest\steps\MediaSteps.class
+ru\antipov\autotest\pages\MediaPage.class
+ru\antipov\autotest\util\TestProperties.class
+ru\antipov\autotest\pages\RegistrationPage.class

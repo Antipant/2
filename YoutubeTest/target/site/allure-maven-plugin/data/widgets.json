@@ -1,0 +1,59 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1505767424529,
+        "stop" : 1505767437255,
+        "duration" : 12726
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "d1d91f68a07aaa87",
+        "message" : "InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated\n  (Session info: chrome=60.0.3112.113)\n  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 69 milliseconds\nBuild info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'\nSystem info: host: 'DESKTOP-7L1GI82', ip: '192.168.0.113', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir1332_32084}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]\nSession ID: 556310af3f995809ddbbbf5728249072",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "d2521e9e3158acec",
+        "title" : "Surefire suite : Surefire test",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Without feature",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 0,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}
